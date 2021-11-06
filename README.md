@@ -14,3 +14,4 @@ Repositorio que contiene las prácticas de la asignatura Seguridad en Sistemas I
 - [Práctica 7](diffie-hellman): Intercambio de claves de Diffie-Hellman
 - [Práctica 8](fiat-shamir): Algoritmo de Fiat-Shamir
 - [Práctica 9](rsa): Cifrado de RSA
+- [Práctica 10](elgamal-eliptico): Cifrado ElGamal Elíptico
