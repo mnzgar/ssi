@@ -10,3 +10,4 @@ Repositorio que contiene las prácticas de la asignatura Seguridad en Sistemas I
 - [Práctica 3](rc4): Cifrado RC4
 - [Práctica 4](a51): Cifrado A51
 - [Práctica 5](e0): Cifrado E0
+- [Práctica 6](snow3g-aes): Multiplicación en Snow3G y AES
