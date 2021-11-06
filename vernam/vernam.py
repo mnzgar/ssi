@@ -4,6 +4,7 @@ import random
 def binary(message):
   return ''.join([bin(ord(x))[2:].zfill(8) for x in message])
 
+
 # de binario a ascii
 def ascii(binary_message):
   message = ""
@@ -13,9 +14,11 @@ def ascii(binary_message):
     binary_message = binary_message[8:]
   return message
 
+
 # puerta xor
 def xor(b, k):
   return ''.join(str(ord(x) ^ ord(y)) for x, y in zip(b, k))
+
 
 # encriptar
 def encrypt(binary_message, key):
@@ -24,12 +27,14 @@ def encrypt(binary_message, key):
     encrypted += xor(binary_message[i], key[i])
   return(encrypted)
 
+
 # desencriptar
 def decrypt(encrypt_binary_message, key):
   decrypted = ''
   for i in range(len(key)):
     decrypted += xor(encrypt_binary_message[i], key[i])
   return(decrypted)
+
 
 # main del programa
 def main():
