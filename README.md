@@ -13,3 +13,4 @@ Repositorio que contiene las prácticas de la asignatura Seguridad en Sistemas I
 - [Práctica 6](snow3g-aes): Multiplicación en Snow3G y AES
 - [Práctica 7](diffie-hellman): Intercambio de claves de Diffie-Hellman
 - [Práctica 8](fiat-shamir): Algoritmo de Fiat-Shamir
+- [Práctica 9](rsa): Cifrado de RSA
